@@ -37,9 +37,9 @@ A simple **_terminal-based calculator_** that uses **_doubly linked lists_**. It
     - Follow this format for the expressions:
 
       ```
-      (num) (op) ... (num N) (op N+1)
+      (num) (op) ... (num N) (op N) (num N+1)
       
-      Where each expression has N operands and N+1 operators
+      Where each expression has N operators and N+1 numbers / operands.
       ```
 
 2. To run the program, make sure to compile the C files first.

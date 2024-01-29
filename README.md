@@ -3,14 +3,20 @@
 
 ![C][c-md-badge]
 
-A simple **_terminal-based calculator_** that uses **_doubly linked lists_**. It receives input from a file of infix expressions. Note that it assumes all input are written in the correct format. The output shows a step-by-step computation of each valid expression before printing the resulting value.
-- This calculator does not handle parentheses.
-- In computation, it prioritizes multiplication, division, and modulo over addition and subtraction.
-- It follows a left to right precedence rule.
+A simple **_terminal-based calculator_** that uses **_doubly linked lists_**. It receives input from a file of infix expressions, input is assumed to be written in the correct format. The output prints a step-by-step computation of each valid expression before the result.
+- Does not handle parentheses.
+- Prioritizes multiplication, division, and modulo over addition and subtraction.
+- Follows a left to right precedence rule.
 - Negative values are allowed.
 <br />
 
-## Requirements
+## Table of Contents
+1. [Requirements](#requirements)
+2. [How to Run](#instructions)
+3. [Other Notes](#note)
+<br />
+
+## Requirements <a name="requirements"></a>
 1. Ensure that your system has C installed. Linux-based operating systems usually have it installed.
     - To check if you have C and its necessary compilers, type in:
       - `gcc --vesion`
@@ -30,7 +36,7 @@ A simple **_terminal-based calculator_** that uses **_doubly linked lists_**. It
    ```
 <br />
 
-## Running Project
+## Running Project <a name="instructions"></a>
 1. Before compiling and running the program, check the `expressions.in.txt` file first:
     - The first line should be the **_number of expressions_** to be evaluated.
     - Each expression is separated by a _new line_.
@@ -56,7 +62,7 @@ A simple **_terminal-based calculator_** that uses **_doubly linked lists_**. It
 - Ralph Kenneth Rea
 
 ##
-### Note
+### Note <a name="note"></a>
 - This project is in fulfillment of the requirements in CMSC 21: Fundamentals of Programming. UPLB.
 
 [c-md-badge]: https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white

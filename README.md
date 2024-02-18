@@ -63,6 +63,6 @@ A simple **_terminal-based calculator_** that uses **_doubly linked lists_**. It
 
 ##
 ### Note <a name="note"></a>
-- This project is in fulfillment of the requirements in CMSC 21: Fundamentals of Programming. UPLB.
+- This project is in fulfillment of the requirements UPLB.
 
 [c-md-badge]: https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white
